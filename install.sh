@@ -9,25 +9,25 @@ sudo apt install maven -y
 sudo apt install git -y
 sudo apt install python -y
 
-sudo snap refresh -y
-sudo snap install postman -y
-sudo snap install spotify -y
-sudo snap install pycharm-professional --classic -y
-sudo snap install eclipse --classic -y
-sudo snap install intellij-idea-ultimate --classic -y
-sudo snap install webstorm --classic -y
-sudo snap install libreoffice -y
-sudo snap install onlyoffice-desktopeditors -y
-sudo snap install robo3t-snap -y
-sudo snap install sublime-text --classic -y
-sudo snap install slack --classic -y
-sudo snap install utorrent -y
-sudo snap install hiri -y
-sudo snap install gnome-system-monitor -y
-sudo snap install acestreamplayer -y
-sudo snap install vlc -y
-sudo snap install obs-studio -y
-sudo snap install communitheme -y
+sudo snap refresh
+sudo snap install postman
+sudo snap install spotify
+sudo snap install pycharm-professional --classic
+sudo snap install eclipse --classic
+sudo snap install intellij-idea-ultimate --classic
+sudo snap install webstorm --classic
+sudo snap install libreoffice
+sudo snap install onlyoffice-desktopeditors
+sudo snap install robo3t-snap
+sudo snap install sublime-text --classic
+sudo snap install slack --classic
+sudo snap install utorrent
+sudo snap install hiri
+sudo snap install gnome-system-monitor
+sudo snap install acestreamplayer
+sudo snap install vlc
+sudo snap install obs-studio
+sudo snap install communitheme
 
 # minimise by clicking start application icon
 gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
