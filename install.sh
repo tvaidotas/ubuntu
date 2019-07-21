@@ -6,8 +6,8 @@ sudo apt install default-jdk -y
 sudo apt install default-jre -y
 
 sudo apt install maven -y
-sudo apt install git -y
 sudo apt install python -y
+sudo apt install timeshift -y
 
 sudo snap refresh
 sudo snap install postman
@@ -45,6 +45,9 @@ sudo apt-get install chrome-gnome-shell -y
 # prolong battery life
 sudo apt install tlp tlp-rdw -y
 sudo tlp start
+
+# take a snapshot
+sudo timeshift --create
 
 # clean up unrequired packages
 sudo apt autoremove -y
