@@ -13,6 +13,9 @@ sudo apt install docker.io
 sudo usermod -aG docker $USER
 sudo apt install teamviewer -y
 sudo apt install sbt -y
+wget http://download.jboss.org/wildfly/14.0.1.Final/wildfly-14.0.1.Final.tar.gz
+tar -xvzf wildfly-14.0.1.Final.tar.gz
+sudo mv wildfly-14.0.1.Final ~/wildfly
 
 sudo snap refresh
 sudo snap install postman
@@ -34,6 +37,7 @@ sudo snap install vlc
 sudo snap install obs-studio
 sudo snap install communitheme
 sudo snap install aws-cli --classic
+sudo snap install discord
 
 # install google chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
