@@ -8,6 +8,10 @@ sudo apt install default-jre -y
 sudo apt install maven -y
 sudo apt install python -y
 sudo apt install timeshift -y
+sudo apt install puppet -y
+sudo apt install docker.io
+sudo usermod -aG docker $USER
+sudo apt install teamviewer
 
 sudo snap refresh
 sudo snap install postman
@@ -28,10 +32,22 @@ sudo snap install acestreamplayer
 sudo snap install vlc
 sudo snap install obs-studio
 sudo snap install communitheme
+sudo snap install aws-cli --classic
 
-#install google chrome
+# install google chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
+rm google-chrome-stable_current_amd64.deb
+
+# install mysql 
+sudo apt install mysql-server -y
+sudo ufw allow mysql
+systemctl start mysql
+systemctl enable mysql
+
+# install chef
+wget https://packages.chef.io/files/stable/chefdk/3.2.30/ubuntu/18.04/chefdk_3.2.30-1_amd64.deb
+sudo dpkg -i chefdk_3.2.30-1_amd64.deb
 
 # minimise by clicking start application icon
 gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
@@ -56,3 +72,4 @@ sudo timeshift --create
 # clean up unrequired packages
 sudo apt autoremove -y
 
+sudo /sbin/shutdown -r now
