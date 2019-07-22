@@ -29,6 +29,10 @@ sudo snap install vlc
 sudo snap install obs-studio
 sudo snap install communitheme
 
+#install google chrome
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+
 # minimise by clicking start application icon
 gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
 
