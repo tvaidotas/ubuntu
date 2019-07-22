@@ -11,7 +11,8 @@ sudo apt install timeshift -y
 sudo apt install puppet -y
 sudo apt install docker.io
 sudo usermod -aG docker $USER
-sudo apt install teamviewer
+sudo apt install teamviewer -y
+sudo apt install sbt -y
 
 sudo snap refresh
 sudo snap install postman
