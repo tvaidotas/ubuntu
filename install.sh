@@ -8,6 +8,7 @@ sudo apt install default-jre -y
 sudo apt install maven -y
 sudo apt install git -y
 sudo apt install python -y
+sudo apt install curl -y
 
 sudo snap refresh
 sudo snap install postman
