@@ -1,0 +1,17 @@
+1. start laptop and press F10
+2. Under System Configuration -> Boot Options set Secure Boot to Disabled
+3. Exit and save
+4. press F9 to go into boot options and select the usb stick
+5. go through the installation like normal
+6. once installation is done open the usb stick with files and right click next to the two files
+7. select Open in terminal
+8. run a command
+sudo sh install.sh
+9. it might prompt you for confirmation so agree, if you get prompted for a new password set it to password
+10. once the command is done press windows key and type "update"
+11. select the more blue icon
+12. go under the Additional drivers tab
+13. click the radial button that says "Using DKMS..."
+14. click Apply changes
+15. once its done restart laptop
+
