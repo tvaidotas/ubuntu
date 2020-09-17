@@ -68,9 +68,9 @@ sudo apt install gnome-tweak-tool -y
 echo "https://itsfoss.com/best-gnome-extensions/"
 sudo apt-get install chrome-gnome-shell -y
 
-# prolong battery life
-sudo apt install tlp tlp-rdw -y
-sudo tlp start
+# prolong battery life (might affect performance)
+# sudo apt install tlp tlp-rdw -y
+# sudo tlp start
 
 # take a snapshot
 sudo timeshift --create
