@@ -25,3 +25,42 @@ sudo fwupdmgr update
 sudo reboot now
 ```
 
+## Enabling snap store
+
+```shell script
+sudo apt install -y snapd
+```
+
+## Installing caffeine
+
+For keeping laptop awake
+
+```shell script
+sudo apt install -y caffeine
+```
+
+## Installing arandr
+
+For monitor tweaking
+
+```shell script
+sudo apt install -y arandr
+```
+
+## Gnome tweaks
+
+```shell script
+sudo apt install -y gnome-tweak-tool 
+```
+
+### Show battery percentage
+
+Top bar -> Battery percentage
+
+### Show weekday on top bar
+
+Top bar -> Weekday
+
+### Minimise/Maximise buttons
+
+Window Titlebars -> Maximise/Minimise
