@@ -39,3 +39,10 @@ Top bar -> Weekday
 
 Window Titlebars -> Maximise/Minimise
 
+## Teamviewer
+
+Get from [here](https://www.teamviewer.com/en/download/linux/)
+
+## Teams
+
+Get the official version from the **pop store**
