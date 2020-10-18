@@ -11,3 +11,17 @@ To apply the recommended BIOS settings to your Dell computer with a Linux operat
 * Under the Secure Boot Section > Secure Boot Enable, make sure the dot is selected for Disabled. 
 Click the Apply button on the bottom-right and then the Exit button.
 
+## Update packages and drivers
+
+```shell script
+sudo apt update
+sudo apt upgrade
+sudo apt dist-upgrade
+sudo apt autoremove
+sudo apt autoclean
+sudo fwupdmgr get-devices
+sudo fwupdmgr get-updates
+sudo fwupdmgr update
+sudo reboot now
+```
+
