@@ -64,3 +64,10 @@ Top bar -> Weekday
 ### Minimise/Maximise buttons
 
 Window Titlebars -> Maximise/Minimise
+
+### Timeshift
+
+```shell script
+sudo apt install -y timeshift
+```
+
